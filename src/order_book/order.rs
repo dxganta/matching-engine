@@ -1,4 +1,5 @@
 #[derive(Debug)]
+#[derive(Clone)]
 pub struct Order {
     pub amount: u64,
     pub price: u64,
